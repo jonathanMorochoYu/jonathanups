@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "maestroups-f6215": {
+      "hosting": {
+        "my-app": [
+          "maestroups-f6215"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "maestroups-f6215"
+  }
+}

@@ -1,0 +1,24 @@
+<h2>Producto</h2>
+<h4>Agregar Producto</h4>
+
+<div class="sidebar">
+    <h3>Formulario del Producto</h3>
+    <form>
+
+
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" [(ngModel)]="producto.nombre" name="name" required>
+
+      <label for="precio">Precio:</label>
+      <input type="text" id="precio" [(ngModel)]="producto.precio" name="precio" required>
+      
+      <label for="cantidad">Cantidad:</label>
+      <input type="text" id="cantidad" [(ngModel)]="producto.cantidad" name="cantidad" required>
+  
+      
+      <button (click)="enviar()" type="button">Agregar</button>
+      <br>
+      <button (click)="actualizar()" type="button">Modificar</button>
+    </form>
+</div>
+  
